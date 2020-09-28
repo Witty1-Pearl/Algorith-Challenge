@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm Challenge Using JavaScript</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">Page and Character Counter App</span>
+
+        <a href="index.html">Home |</a>
+        <a href="maxMinAvg.html">maxMinAvg |</a>
+        <a href="printIntSum.html">printIntSum |</a>
+        <a href="printMaxArray.html">printMaxArray |</a>
+        <a href="returnArrayCountGreaterY.html">returnArrayCountGreaterY |</a>
+        <a href="returnOddArray.html">returnOddArray |</a>
+        <a href="printArrayVal.html">printArrayVals |</a>
+        <a href="printAverageArray.html">printArrayVals |</a>
+        
+    </nav>
+
+
+
+    <h1>Return Odd Array 1 - 255</h1>
+
+
+    <script>
+        function returnOddArray(a, b) {
+            let oddArray = [];
+            for(let i = a; i < b; i++){
+               
+                if(i%2!== 0){
+                    oddArray.push(i);
+                 }
+                
+            }
+           document.write(`${oddArray}`);
+            
+        }      
+        returnOddArray(1, 255);
+        
+    </script>
+</body>
+</html>

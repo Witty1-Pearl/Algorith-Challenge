@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm Challenge Using JavaScript</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">Page and Character Counter App</span>
+
+        <a href="index.html">Home |</a>
+        <a href="maxMinAvg.html">maxMinAvg |</a>
+        <a href="printIntSum.html">printIntSum |</a>
+        <a href="printMaxArray.html">printMaxArray |</a>
+        <a href="returnArrayCountGreaterY.html">returnArrayCountGreaterY |</a>
+        <a href="returnOddArray.html">returnOddArray |</a>
+        <a href="printArrayVal.html">printArrayVals |</a>
+        <a href="printAverageArray.html">printArrayVals |</a>
+        
+    </nav>
+    <h1>Print Average of Array</h1>
+
+
+
+
+    <script>
+        function printAverageOfArray(arr) {
+                let Average = 0;
+                let sum = 0;
+                for (let i = 0; i < arr.length; i++) {
+                    sum += arr[i];
+
+                    let Average = sum / arr.length;
+                }
+                document.write(` set Average of array ${arr}`);
+
+            }
+            printAverageOfArray(1, 255);
+
+    </script>
+</body>
+</html>

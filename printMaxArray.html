@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm Challenges Using JavaScript</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">Page and Character Counter App</span>
+
+        <a href="index.html">Home |</a>
+        <a href="maxMinAvg.html">maxMinAvg |</a>
+        <a href="printIntSum.html">printIntSum |</a>
+        <a href="printMaxArray.html">printMaxArray |</a>
+        <a href="returnArrayCountGreaterY.html">returnArrayCountGreaterY |</a>
+        <a href="returnOddArray.html">returnOddArray |</a>
+        <a href="printArrayVal.html">printArrayVals |</a>
+        <a href="printAverageArray.html">printArrayVals |</a>
+        
+    </nav>
+
+
+
+
+
+    <h1>Print Max Array</h1>
+
+
+    <script>
+        
+
+            let arr = [10, 20, 30, 40, 90, 60, 70, 80];
+        function printMaxArray(arr){
+            let max = arr[0];
+            for(let index = 0; index < arr.length; index++) {
+
+                if(max < arr[index]){
+
+                 max = arr[index];
+                }
+
+            
+            }
+            document.write(`set max to ${max}`)
+        }
+
+        printMaxArray(arr)
+    </script>
+</body>
+</html>
